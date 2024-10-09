@@ -1,0 +1,31 @@
+{
+  "kind": "collectionType",
+  "collectionName": "technology_reacts",
+  "info": {
+    "singularName": "technology-react",
+    "pluralName": "technology-reacts",
+    "displayName": "Technology",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "page": {
+      "type": "dynamiczone",
+      "components": [
+        "technology.technology-brief-intro",
+        "technology.benefits-section",
+        "technology.technology-details",
+        "technology.technology-combinations"
+      ]
+    }
+  }
+}

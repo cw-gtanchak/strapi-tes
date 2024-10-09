@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_technology_technology_combinations",
+  "info": {
+    "displayName": "Technology Combinations"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "listCard": {
+      "type": "component",
+      "repeatable": true,
+      "component": "common.normal-card"
+    },
+    "link": {
+      "type": "component",
+      "repeatable": false,
+      "component": "common.button"
+    }
+  }
+}

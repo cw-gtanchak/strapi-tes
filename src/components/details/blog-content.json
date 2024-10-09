@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_details_blog_contents",
+  "info": {
+    "displayName": "Blog Content",
+    "icon": "bulletList"
+  },
+  "options": {},
+  "attributes": {
+    "contentTitle": {
+      "type": "string",
+      "required": true,
+      "maxLength": 100
+    },
+    "contentImage": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "contentData": {
+      "type": "richtext",
+      "required": true,
+      "minLength": 100
+    }
+  }
+}

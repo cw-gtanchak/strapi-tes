@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_technology_benefits_sections",
+  "info": {
+    "displayName": "Benefits Section",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "heading": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "benefitsPoints": {
+      "type": "component",
+      "repeatable": true,
+      "component": "common.text"
+    },
+    "benefitsImages": {
+      "type": "component",
+      "repeatable": true,
+      "component": "common.image"
+    }
+  }
+}

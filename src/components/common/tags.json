@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_common_tags",
+  "info": {
+    "displayName": "Tags"
+  },
+  "options": {},
+  "attributes": {
+    "ai": {
+      "type": "boolean"
+    },
+    "web_design": {
+      "type": "boolean"
+    },
+    "career": {
+      "type": "boolean"
+    },
+    "python": {
+      "type": "boolean"
+    },
+    "react": {
+      "type": "boolean"
+    }
+  }
+}

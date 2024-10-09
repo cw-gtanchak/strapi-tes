@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_technology_technology_details",
+  "info": {
+    "displayName": "Technology Details",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "hireDeveloper": {
+      "type": "component",
+      "repeatable": false,
+      "component": "common.button"
+    },
+    "technicalPoints": {
+      "type": "component",
+      "repeatable": true,
+      "component": "common.normal-card"
+    }
+  }
+}

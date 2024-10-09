@@ -1,0 +1,31 @@
+{
+  "collectionName": "components_technology_technology_brief_intros",
+  "info": {
+    "displayName": "Technology Brief Intro",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "link": {
+      "type": "component",
+      "repeatable": false,
+      "component": "common.button"
+    },
+    "technologyImage": {
+      "type": "component",
+      "repeatable": false,
+      "component": "common.image"
+    },
+    "technologyIcon": {
+      "type": "component",
+      "repeatable": false,
+      "component": "common.image"
+    }
+  }
+}
